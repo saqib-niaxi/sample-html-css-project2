@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+}
+.here{
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradiennt(black, black); */
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    /* align-content: center; */
+
+
+}
+nav {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(95, 77, 77);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+/* nav .logo{
+    font-size: 2rem;
+    size: 2rem;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    hover: rgb(97, 48, 48); */
+
+ /* } */
+nav ul li{ 
+    list-style: none;
+    display: inline-block;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(83, 44, 44);
+}
+.content{
+   text-align: center;
+}
+.content h1{
+    font-size: 160px;
+    
+    /* font-weight: bold; */
+    color: rgb(32, 13, 13);
+    text-transform: uppercase;
+    /* letter-spacing: 2px; */
+    font-weight: 600;
+    transition: 0.5s;
+}
+.content:hover{
+    -webkit-text-stroke:2px rgb(86, 138, 73);
+    color: transparent;
+}
+.content h1 a{
+    font-size: 1.5rem;
+    /* background: rgb(230, 145, 145); */
+    border-radius: 5rem;
+    font-weight: bold;
+    color: rgb(134, 104, 104);
+    text-transform: uppercase;
+    /* letter-spacing: 2px; */
+}
+/* .content a:hover{
+    background: rgb(97, 48, 48);
+    color: #fff;
+} */
+/* .background-vedio{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+} */
+@media(min-aspect-ratio : 16/9){
+    .background-vedio{
+        width: 100%;
+        height: auto;
+        
+    }
+}
+@media(max-aspect-ratio : 16/9){
+    .background-vedio{
+        width: auto;
+        height: 100%;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
